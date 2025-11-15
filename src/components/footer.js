@@ -6,7 +6,34 @@ import logo from "../images/3D-liquid-abstract-5.webp"
 const Footer = () => {
   return (
     <div className="m-4">
-      <div className="max-w-7xl mx-auto mt-10 h-auto lg:mb-8 sm:mb-4 xs:mb-4 xxs:mb-4">
+      <div className="bg-gradient-to-r from-green to-purple text-black py-8 mt-10 rounded-xl">
+  <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+    
+    {/* Bagian kiri: logo dan deskripsi */}
+    <div className="mb-6 md:mb-0">
+      <img src={logo} alt="Logo" className="h-16 mx-auto md:mx-0" />
+      <p className="text-sm opacity-80 mt-3">
+        Tetaplah berbuat kebaikan salah satunya berbagi ilmu pengetahuan <br />
+        RA Fathul Insani
+      </p>
+      <p className="text-xs mt-4 text-black font-semibold">
+        &copy; {new Date().getFullYear()} All Rights Reserved.
+      </p>
+    </div>
+
+    {/* Bagian kanan: navigasi */}
+    <div>
+      <ul className="space-y-2 md:space-y-1 text-sm font-medium text-black">
+        <li><Link to="/" className="text-black">Home</Link></li>
+        <li><Link to="/about" className="text-black">About</Link></li>
+        <li><Link to="/gallery" className="text-black">Gallery</Link></li>
+        <li><Link to="/blog" className="text-black">Blog</Link></li>
+        <li><Link to="/contact" className="text-black">Contact</Link></li>
+      </ul>
+    </div>
+  </div>
+</div>
+      {/* <div className="max-w-7xl mx-auto mt-10 h-auto lg:mb-8 sm:mb-4 xs:mb-4 xxs:mb-4">
         <div className="footer bg-gradient-to-r from-pink to-purple p-10 mt-10 rounded-xl">
           <div className="grid grid-cols-2 xxs:grid-cols-1 lg:grid-cols-2">
             <div>
@@ -70,7 +97,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

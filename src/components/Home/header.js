@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import hero from "../../images/LOGO-TK.png"
+import hero from "../../images/logo-ra-rb.png"
 
 const Header = () => {
   return (
@@ -12,7 +12,7 @@ const Header = () => {
             <h1 className="text-black text-4xl font-semibold opacity-70">
               SELAMAT DATANG DI
             </h1>
-            <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
+            <h2 className="text-black text-gradient bg-gradient-to-r from-green to-gray-600 text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
               YAYASAN FATHUL INSANI
             </h2>
 
@@ -26,7 +26,7 @@ const Header = () => {
               <div className="rounded-md">
                 <a
                   href="/contact"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-green text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
                 >
                   Hubungi kami
                   <svg
@@ -49,7 +49,7 @@ const Header = () => {
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="/about"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-green md:py-3 md:text-lg md:px-10"
                 >
                   Pelajari lebih lanjut
                 </a>
@@ -59,7 +59,7 @@ const Header = () => {
 
           <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4 flex lg:justify-end justify-center">
             <img
-              className="rounded-xl w-auto h-full object-cover flex justify-center"
+              className="rounded-xl w-auto h-[500px] object-cover flex justify-center"
               src={hero}
               alt=""
             ></img>
