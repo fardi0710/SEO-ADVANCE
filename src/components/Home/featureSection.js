@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade"
 
 // Assets
 import HeroImage from "../../images/WISUDA-TK.jpg"
-import Image1 from "../../images/Animasi-tk1.png"
+import Image1 from "../../images/Animasi-TK1.png"
 import Image2 from "../../images/TK-6.png"
 import Image4 from "../../images/TK-4.png"
 import Image5 from "../../images/tk-5.png"
