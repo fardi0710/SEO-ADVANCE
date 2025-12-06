@@ -4,7 +4,7 @@ const AboutExtra = () => {
   return (
     <div className="max-w-7xl mx-auto mt-10">
       <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold">GATSBY FRAMEWORK</h2>
+        {/* <h2 className="text-black text-4xl font-semibold">GATSBY FRAMEWORK</h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           Start building amazing web experiences
         </h3>
@@ -43,7 +43,7 @@ const AboutExtra = () => {
               </svg>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )
