@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Holo - Gatsby Starter`,
-    description: `Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS`,
+    title: `RA/TK Fathul Insani`,
+    description: `Website resmi RA/TK Fathul Insani - Tempat terbaik untuk pendidikan anak usia dini dengan pendekatan islami dan kurikulum berkualitas.`,
     siteUrl: "https://holo-theme.netlify.app/",
-    author: `Travis Lord <hi@travislord.xyz>`,
+    author: `Fardi Hamdan`,
+    keywords: "RA Fathul Insani, TK Fathul Insani, Pendidikan Anak Usia Dini, PAUD Islam, Kurikulum Berkualitas, Kegiatan Anak, Taman Kanak-Kanak Islam, Sekolah Dasar Islam, Pendidikan Holistik, Pengembangan Anak, Belajar Sambil Bermain, Lingkungan Belajar Aman, Guru Profesional, Kegiatan Kreatif Anak, Pendidikan Karakter, Taman Pendidikan Al-Qur'an",
   },
   plugins: [
     `gatsby-plugin-image`,

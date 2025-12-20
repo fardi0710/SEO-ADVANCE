@@ -1,23 +1,29 @@
 ---
 templateKey: blog-post
-title: Minimalist Gatsby Starter Theme
-date: 2024-03-30T18:18:16.118Z
-featuredimage: /img/holographic-background.webp
+title: RA FATHUL INSANI
+date: 2024-12-09T18:18:16.118Z
+featuredimage: ../images/AKTIFITAS-GURU.JPG
 categories:
   - Gatsby
 description: >-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  RA Fathul Insani Kegiatan Mengaji dan Tahfidz Juz 30 Setiap pagi dimulai dengan tadarus Al-Qur’an. Anak-anak duduk rapi bersama guru sambil melantunkan ayat-ayat pendek dengan suara merdu. Beberapa murid bahkan sudah mampu menghafal surat-surat pendek seperti Al-Ikhlas, Al-Falaq, dan An-Naas dengan lancar — sebuah pencapaian luar biasa di usia dini! Setiap pekan, sekolah mengadakan “Pekan Hafalan”, di mana anak-anak memperdengarkan hafalannya di depan teman-teman. Suasana penuh semangat dan rasa bangga terpancar di wajah mereka.
 ---
-## Lorem Ipsum 
+## RA Fathul Insani 
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+- Belajar Sambil Bermain
 
-## Simply Dummy Text
+Pembelajaran di RA FATHUL INSANI tidak pernah membosankan. Anak-anak belajar mengenal angka dan huruf lewat permainan edukatif, puzzle Islami, dan bernyanyi bersama. Guru menanamkan nilai “belajar itu menyenangkan” dengan pendekatan learning by doing — anak belajar sambil bergerak, menggambar, atau bermain peran.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Beberapa murid RA FATHUL INSANI pernah meraih prestasi di tingkat kecamatan: Juara 1 Lomba Tahfidz Anak. Juara 2 Mewarnai Islami. Juara Harapan Lomba Adzan Anak. Kebanggaan bukan hanya karena piala yang didapat, tetapi karena semangat dan keberanian anak-anak tampil percaya diri dengan akhlak mulia.
 
 
+## Pembiasaan Ibadah Sehari-hari
 
-## Typesetting
+- Pembiasaan Ibadah Sehari-hari
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Kegiatan shalat dhuha berjamaah, doa sebelum dan sesudah belajar, serta adab masuk kelas menjadi rutinitas harian. Anak-anak diajarkan arti dari doa-doa pendek dan makna bersyukur kepada Allah. Kebiasaan ini menumbuhkan rasa cinta terhadap ibadah sejak usia dini — pondasi penting dalam membentuk karakter muslim sejati.
+
+
+## Prestasi yang Membanggakan
+
+Beberapa murid RA FATHUL INSANI pernah meraih prestasi di tingkat kecamatan: Juara 1 Lomba Tahfidz Anak. Juara 2 Mewarnai Islami. Juara Harapan Lomba Adzan Anak. Kebanggaan bukan hanya karena piala yang didapat, tetapi karena semangat dan keberanian anak-anak tampil percaya diri dengan akhlak mulia.

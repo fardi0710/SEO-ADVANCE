@@ -17,13 +17,15 @@ const Contact = () => {
 
       <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
         <Fade duration={1200}>
-          <div className="bg-dp opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
-            <h1 className="text-3xl text-white">CONTACT HOLO</h1>
+          <div className="bg-green opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
+            <h1 className="text-3xl text-white">CONTACT RA FATHUL INSANI</h1>
             <h2 className=" text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
-              Gatsby Theme
+              We Would Love to Hear From You
             </h2>
             <p className="text-lg mt-2 opacity-70 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
-              A stunning and minimal personalized website starter theme.
+              RA FATHUL INSANI selalu terbuka untuk mendengar masukan,
+              pertanyaan, atau kolaborasi dari Anda. Jangan ragu untuk
+              menghubungi kami melalui formulir di bawah ini atau melalui
             </p>
 
             <div className="w-full shrink-0 grow-0 basis-auto lg:w-ful mt-10">
@@ -53,7 +55,7 @@ const Contact = () => {
                         Phone
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="tel:+#">(08) 9000 000</a>
+                        <a href="tel:+#">(+62)896-0423-8536</a>
                       </p>
                     </div>
                   </div>
@@ -84,7 +86,7 @@ const Contact = () => {
                       </p>
                       <p className="text-neutral-500 mb-2">
                         <a href="mailto:hello@holo.com?subject=Contact Holo for help.">
-                          hello@holo.com
+                          paudfathulinsani@gmail.com
                         </a>
                       </p>
                     </div>
@@ -114,7 +116,7 @@ const Contact = () => {
                       <p className="mb-2 font-bold underline decoration-pink">
                         Location
                       </p>
-                      <p className="text-neutral-500 mb-2">Worldwide</p>
+                      <p className="text-neutral-500 mb-2">https://share.google/ExYFVD0NH396nwZMx</p>
                     </div>
                   </div>
                 </div>
