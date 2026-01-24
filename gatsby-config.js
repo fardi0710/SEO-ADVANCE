@@ -114,38 +114,13 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
-    {
-  resolve: gatsby-plugin-sitemap,
-  options: {
-    query: `
-      {
-        site {
-          siteMetadata {
-            siteUrl
-          }
-        }
-        allSitePage {
-          nodes {
-            path
-          }
-        }
-      }
-    `,
-    serialize: ({ site, allSitePage }) =>
-      (allSitePage?.nodes || []).map(page => {
-        return {
-          url: new URL(page.path, site.siteMetadata.siteUrl).toString(),
-          changefreq: daily,
-          priority: 0.7,
-        };
-      }),
-  },
-},
+    
     `gatsby-plugin-netlify`,
     `gatsby-plugin-gatsby-cloud`,
     "gatsby-plugin-postcss",
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
   ],
 }
