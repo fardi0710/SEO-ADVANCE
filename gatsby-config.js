@@ -25,6 +25,13 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        path: `${__dirname}/src/blog`,
+        name: "blog",
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         path: `${__dirname}/src`,
         name: "_content",
       },
@@ -39,6 +46,12 @@ module.exports = {
             resolve: "gatsby-remark-relative-images",
             options: {
               name: "uploads",
+            },
+          },
+          {
+            resolve: "gatsby-remark-relative-images",
+            options: {
+              name: "images",
             },
           },
           {
@@ -80,13 +93,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Holo - Gatsby Starter Theme`,
+        name: `RA /TK Fathul Insani`,
         short_name: `Holo`,
         start_url: `/`,
         background_color: `#ebebfa`,
         theme_color: `#ebebfa`,
         display: `standalone`,
-        icon: `src/images/3D-liquid-abstract-5.webp`, // This path is relative to the root of the site.
+        icon: `src/images/logo-ra-rb.png`, // This path is relative to the root of the site.
       },
     },
     {
@@ -101,6 +114,33 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    {
+  resolve: gatsby-plugin-sitemap,
+  options: {
+    query: `
+      {
+        site {
+          siteMetadata {
+            siteUrl
+          }
+        }
+        allSitePage {
+          nodes {
+            path
+          }
+        }
+      }
+    `,
+    serialize: ({ site, allSitePage }) =>
+      (allSitePage?.nodes || []).map(page => {
+        return {
+          url: new URL(page.path, site.siteMetadata.siteUrl).toString(),
+          changefreq: daily,
+          priority: 0.7,
+        };
+      }),
+  },
+},
     `gatsby-plugin-netlify`,
     `gatsby-plugin-gatsby-cloud`,
     "gatsby-plugin-postcss",
